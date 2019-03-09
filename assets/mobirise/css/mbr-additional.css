@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
+
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -24,11 +26,11 @@ body {
   font-size: 2.4rem;
 }
 .display-2 {
-  font-family: 'Futura Bold Italic font';
-  font-size: 3.6rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 5.76rem;
+  font-size: 4.8rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -38,7 +40,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Futura Bold Italic font';
+  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -63,9 +65,9 @@ body {
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.88rem;
-    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -165,8 +167,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #bb453d !important;
-  border-color: #bb453d !important;
+  background-color: #ff3366 !important;
+  border-color: #ff3366 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -174,14 +176,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #81302a !important;
-  border-color: #81302a !important;
+  background-color: #e50039 !important;
+  border-color: #e50039 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #81302a !important;
-  border-color: #81302a !important;
+  background-color: #e50039 !important;
+  border-color: #e50039 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -329,22 +331,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #6e2924;
-  color: #6e2924;
+  border-color: #cc0033;
+  color: #cc0033;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #bb453d;
-  border-color: #bb453d;
+  background-color: #ff3366;
+  border-color: #ff3366;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bb453d !important;
-  border-color: #bb453d !important;
+  background-color: #ff3366 !important;
+  border-color: #ff3366 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -464,7 +466,7 @@ body {
   color: #149dcc !important;
 }
 .text-secondary {
-  color: #bb453d !important;
+  color: #ff3366 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -490,7 +492,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #6e2924 !important;
+  color: #cc0033 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
